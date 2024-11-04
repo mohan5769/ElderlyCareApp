@@ -11,6 +11,21 @@
 		AF1838EB2C96B0C100760173 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1838EA2C96B0C100760173 /* ContentView.swift */; };
 		AF1838ED2C96B0C200760173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1838EC2C96B0C200760173 /* Assets.xcassets */; };
 		AF1838F02C96B0C200760173 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1838EF2C96B0C200760173 /* Preview Assets.xcassets */; };
+		AF2E267D2C97F877001C9BAB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2E267C2C97F877001C9BAB /* HomeView.swift */; };
+		AF2E26812C97F932001C9BAB /* MedicationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2E26802C97F932001C9BAB /* MedicationViewModel.swift */; };
+		AF2E26832C97F96F001C9BAB /* MedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2E26822C97F96F001C9BAB /* MedicationView.swift */; };
+		AF2E26852C97F99E001C9BAB /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2E26842C97F99E001C9BAB /* HealthKitManager.swift */; };
+		AF2E26872C97F9C0001C9BAB /* HealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2E26862C97F9C0001C9BAB /* HealthView.swift */; };
+		AF2E268B2C97FA0F001C9BAB /* SOSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2E268A2C97FA0F001C9BAB /* SOSView.swift */; };
+		AF2E268E2C97FC38001C9BAB /* SocialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2E268D2C97FC38001C9BAB /* SocialViewModel.swift */; };
+		AF2E26902C97FC73001C9BAB /* SocialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2E268F2C97FC73001C9BAB /* SocialView.swift */; };
+		AF2E26922C97FCDE001C9BAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2E26912C97FCDE001C9BAB /* AppDelegate.swift */; };
+		AF2E269A2C980593001C9BAB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF2E26992C980592001C9BAB /* GoogleService-Info.plist */; };
+		AF2E26A72C995FC4001C9BAB /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2E26A62C995FC4001C9BAB /* ActivityViewModel.swift */; };
+		AF2E26A92C9961C3001C9BAB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AF2E26A82C9961C3001C9BAB /* FirebaseAuth */; };
+		AF2E26AB2C9961C3001C9BAB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = AF2E26AA2C9961C3001C9BAB /* FirebaseFirestore */; };
+		AF2E26AD2C9961C3001C9BAB /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = AF2E26AC2C9961C3001C9BAB /* FirebaseMessaging */; };
+		AF2E26AF2C9961C3001C9BAB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = AF2E26AE2C9961C3001C9BAB /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +34,17 @@
 		AF1838EA2C96B0C100760173 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AF1838EC2C96B0C200760173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF1838EF2C96B0C200760173 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF2E267C2C97F877001C9BAB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AF2E26802C97F932001C9BAB /* MedicationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationViewModel.swift; sourceTree = "<group>"; };
+		AF2E26822C97F96F001C9BAB /* MedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationView.swift; sourceTree = "<group>"; };
+		AF2E26842C97F99E001C9BAB /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		AF2E26862C97F9C0001C9BAB /* HealthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthView.swift; sourceTree = "<group>"; };
+		AF2E268A2C97FA0F001C9BAB /* SOSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOSView.swift; sourceTree = "<group>"; };
+		AF2E268D2C97FC38001C9BAB /* SocialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewModel.swift; sourceTree = "<group>"; };
+		AF2E268F2C97FC73001C9BAB /* SocialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialView.swift; sourceTree = "<group>"; };
+		AF2E26912C97FCDE001C9BAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF2E26992C980592001C9BAB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AF2E26A62C995FC4001C9BAB /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +52,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF2E26AD2C9961C3001C9BAB /* FirebaseMessaging in Frameworks */,
+				AF2E26AF2C9961C3001C9BAB /* FirebaseStorage in Frameworks */,
+				AF2E26A92C9961C3001C9BAB /* FirebaseAuth in Frameworks */,
+				AF2E26AB2C9961C3001C9BAB /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +67,7 @@
 			children = (
 				AF1838E72C96B0C100760173 /* ElderlyCareApp */,
 				AF1838E62C96B0C100760173 /* Products */,
+				AF2E269B2C995854001C9BAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +84,17 @@
 			children = (
 				AF1838E82C96B0C100760173 /* ElderlyCareAppApp.swift */,
 				AF1838EA2C96B0C100760173 /* ContentView.swift */,
+				AF2E26802C97F932001C9BAB /* MedicationViewModel.swift */,
+				AF2E267C2C97F877001C9BAB /* HomeView.swift */,
+				AF2E26A62C995FC4001C9BAB /* ActivityViewModel.swift */,
+				AF2E26822C97F96F001C9BAB /* MedicationView.swift */,
+				AF2E26842C97F99E001C9BAB /* HealthKitManager.swift */,
+				AF2E26862C97F9C0001C9BAB /* HealthView.swift */,
+				AF2E268A2C97FA0F001C9BAB /* SOSView.swift */,
+				AF2E268D2C97FC38001C9BAB /* SocialViewModel.swift */,
+				AF2E26992C980592001C9BAB /* GoogleService-Info.plist */,
+				AF2E268F2C97FC73001C9BAB /* SocialView.swift */,
+				AF2E26912C97FCDE001C9BAB /* AppDelegate.swift */,
 				AF1838EC2C96B0C200760173 /* Assets.xcassets */,
 				AF1838EE2C96B0C200760173 /* Preview Content */,
 			);
@@ -65,6 +107,13 @@
 				AF1838EF2C96B0C200760173 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF2E269B2C995854001C9BAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +132,12 @@
 			dependencies = (
 			);
 			name = ElderlyCareApp;
+			packageProductDependencies = (
+				AF2E26A82C9961C3001C9BAB /* FirebaseAuth */,
+				AF2E26AA2C9961C3001C9BAB /* FirebaseFirestore */,
+				AF2E26AC2C9961C3001C9BAB /* FirebaseMessaging */,
+				AF2E26AE2C9961C3001C9BAB /* FirebaseStorage */,
+			);
 			productName = ElderlyCareApp;
 			productReference = AF1838E52C96B0C100760173 /* ElderlyCareApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +166,9 @@
 				Base,
 			);
 			mainGroup = AF1838DC2C96B0C100760173;
+			packageReferences = (
+				AF2E268C2C97FBF9001C9BAB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = AF1838E62C96B0C100760173 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +185,7 @@
 			files = (
 				AF1838F02C96B0C200760173 /* Preview Assets.xcassets in Resources */,
 				AF1838ED2C96B0C200760173 /* Assets.xcassets in Resources */,
+				AF2E269A2C980593001C9BAB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +196,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF2E26922C97FCDE001C9BAB /* AppDelegate.swift in Sources */,
+				AF2E268B2C97FA0F001C9BAB /* SOSView.swift in Sources */,
+				AF2E26902C97FC73001C9BAB /* SocialView.swift in Sources */,
+				AF2E267D2C97F877001C9BAB /* HomeView.swift in Sources */,
+				AF2E268E2C97FC38001C9BAB /* SocialViewModel.swift in Sources */,
+				AF2E26832C97F96F001C9BAB /* MedicationView.swift in Sources */,
+				AF2E26872C97F9C0001C9BAB /* HealthView.swift in Sources */,
+				AF2E26852C97F99E001C9BAB /* HealthKitManager.swift in Sources */,
+				AF2E26812C97F932001C9BAB /* MedicationViewModel.swift in Sources */,
 				AF1838EB2C96B0C100760173 /* ContentView.swift in Sources */,
 				AF1838E92C96B0C100760173 /* ElderlyCareAppApp.swift in Sources */,
+				AF2E26A72C995FC4001C9BAB /* ActivityViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +411,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AF2E268C2C97FBF9001C9BAB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AF2E26A82C9961C3001C9BAB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF2E268C2C97FBF9001C9BAB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		AF2E26AA2C9961C3001C9BAB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF2E268C2C97FBF9001C9BAB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		AF2E26AC2C9961C3001C9BAB /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF2E268C2C97FBF9001C9BAB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		AF2E26AE2C9961C3001C9BAB /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AF2E268C2C97FBF9001C9BAB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AF1838DD2C96B0C100760173 /* Project object */;
 }

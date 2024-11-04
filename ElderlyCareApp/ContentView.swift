@@ -6,19 +6,32 @@
 //
 
 import SwiftUI
+import Firebase
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            HomeView()
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                }
+            MedicationViewModel()
+                .tabItem {
+                    Label("Medications", systemImage: "pill")
+                }
+            HealthView()
+                .tabItem {
+                    Label("Health", systemImage: "heart")
+                }
+            SOSView()
+                .tabItem {
+                    Label("SOS", systemImage: "exclamationmark.triangle")
+                }
+            SocialView()
+                .tabItem {
+                    Label("Social", systemImage: "person.3")
+                }
         }
-        .padding()
+        .accentColor(.blue)
     }
-}
-
-#Preview {
-    ContentView()
 }
